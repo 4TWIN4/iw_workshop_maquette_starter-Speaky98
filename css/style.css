@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'league gothic';
+    src: url("../fontface/league-gothic-master/LeagueGothic-Regular.otf");
+}
+
+@font-face {
+    font-family: 'lacuma';
+    src: url("../fontface/Lacuna-Regular-fontfacekit/web fonts/lacuna_regular_macroman/lacuna-webfont.woff");
+}
+
+:root{
+    --primary-100: #2a1e1e;
+    --primary-200: #000000;
+    --primary-300: #ffc91b;
+    --primary-400: #ffffff;
+   --font--primary:'league gothic',sans sherif;
+    --font--secondary:'lacuna',sans sherif;
+}
+nav{
+    background-color: var(--primary-200);
+}
+#navbarMenu ul a {
+    color: var(--primary-400) !important;
+}
