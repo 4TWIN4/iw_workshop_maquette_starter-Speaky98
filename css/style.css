@@ -22,3 +22,6 @@ nav{
 #navbarMenu ul a {
     color: var(--primary-400) !important;
 }
+i{
+    color: #f0bd01;
+}
